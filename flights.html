@@ -1,1 +1,131 @@
-Flights Page
+
+<!-- Flights Page -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>Your Flights</title>
+
+		<link
+			href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu"
+			rel="stylesheet"
+		/>
+		<link href="css/index.css" rel="stylesheet" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<!-- navigation code here -->
+		<section class="nav-container">
+			<h1>Vaca</h1>
+			<!-- nav placeholder -->
+			<nav>
+				<a href="#">Home</a>
+				<a href="#">About Us</a>
+				<a href="#">Blog</a>
+				<a href="#">Contact</a>
+				<a href="#">Sign In</a>
+			</nav>
+		</section>
+
+		<div class="container home">
+			<header class="intro">
+				<h2>Flight Planner</h2>
+
+				<p>
+					Navigate your airports, plan your takeoff, and enjoy the flight.
+				</p>
+			</header>
+
+			<section class="plane-images">
+				<img
+					src="images/airplaneWing.jfif"
+					class="airplaneWing"
+					alt="Airplane Wing"
+				/>
+				<img
+					src="images/planeAisle.jfif"
+					class="airplaneAisle"
+					alt="Airplane Aisle"
+				/>
+				<img
+					src="images/airportChilling.jfif"
+					class="airportChilling"
+					alt="Airport Chilling"
+				/>
+			</section>
+
+			<section class="SEA-BNA">
+				<h3>Seattle -> Nashville</h3>
+                <div class="class="nashvilleWall"">
+					<!-- image code here -->
+					<img
+						src="images/nashvilleWall.jfif"
+						alt="Nashville Wall Mural"
+					/>
+				</div>
+				<div class="airportAirline-container">
+					<h4>
+						SEA - BNA
+                    </h4>
+					<p>Alaska Airlines Flight 2341</p>
+					<p class="departure">Departure: 5/22/2020 - 17:35</p>
+					<p class="arrival">Arrival: 5/22/2020 - 23:45</p>
+				</div>
+				
+				<p>
+					Enjoy the sights, and most importantly, the SOUNDS of Music City
+				</p>
+			</section>
+
+            <section class="LAX-LHR">
+				<h3>Los Angeles -> London</h3>
+                <div class="class="londonCalling"">
+					<!-- image code here -->
+					<img
+						src="images/london.jfif"
+						alt="Big Ben"
+					/>
+				</div>
+				<div class="airportAirline-container">
+					<h4>
+						LAX - LHR
+                    </h4>>
+					<p>British Airways Flight 392</p>
+					<p class="departure">Departure: 6/17/2020 - 16:05</p>
+					<p class="arrival">Arrival: 6/18/2020 - 9:25</p>
+				</div>
+				
+				<p>
+					Ride a double-decker bus, visit Big Ben, and grab an imperial pint at one of over 3,500 pubs in historic London, England!
+				</p>
+            </section>
+            <section class="book-flights">
+                <h4>Book Another Flight</h4>
+                <form class="forms">
+                    <label>From</lavel>
+                    <input type="text"> 
+                </form>
+                <form class="forms">
+                    <label>To</lavel>
+                    <input type="text"> 
+                </form>
+                <div class="button-container">
+                    <button class="btn">Search Flights</button>
+                </div>
+            </section>
+		</div>
+		<div class="footer-container">
+			<footer>
+				<p>Copyright Vaca Vacations 2020</p>
+			</footer>
+		</div>
+	</body>
+</html>
+
