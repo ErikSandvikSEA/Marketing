@@ -89,7 +89,6 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  border: 1px solid red;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -164,9 +163,46 @@ html body p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
-.btn {
+body {
+  margin: 8%;
+  padding: 4%;
+}
+body .nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4%;
+}
+body .nav-container nav {
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body .nav-container a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+body .hotels-text-content {
+  border: #f08080 solid 2px;
+  border-radius: 15px;
+  padding: 5%;
+  margin: 4%;
+}
+body .hotel-images {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 4% 3%;
+}
+body .hotel-images img {
+  width: 30%;
+  border: 2px #f08080 solid;
+  border-radius: 4px;
+}
+body .btn {
   background-color: #008080;
-  width: 50%;
+  width: 49%;
   color: #f5deb3;
   padding-left: 8%;
   padding-right: 8%;
@@ -174,8 +210,53 @@ html body p {
   font-family: 'Baloo Da 2', cursive;
   font-size: 1.8rem;
 }
+body .img-content {
+  display: flex;
+  justify-content: center;
+}
+body .img-content img {
+  border: 3px #f08080 solid;
+  border-radius: 4px;
+}
+body .content-pick {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .destination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3%;
+  padding: 1% 0;
+  border: #f08080 solid 2px;
+  border-radius: 15px;
+  width: 70%;
+}
+body .button-container {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+body .book-another {
+  border: #f08080 solid 2px;
+  border-radius: 15px;
+  padding: 5%;
+  margin: 4%;
+}
+body .book-another img {
+  border: #f08080 solid 2px;
+  border-radius: 15px;
+  width: 45%;
+}
+body .title-slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 body {
   margin: 0 8%;
+  border-radius: 15px;
 }
 body .nav-container {
   display: flex;
@@ -192,9 +273,15 @@ body .nav-container a {
   font-size: 2rem;
   font-weight: bold;
 }
+body .home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 body .home .intro {
   border: 5px #f08080 solid;
-  padding: 4% 0;
+  border-radius: 15px;
+  padding: 4%;
 }
 body .home .plane-images {
   display: flex;
@@ -223,7 +310,7 @@ body .nashvilleWall img {
   width: 80%;
   margin: 4% 3%;
   border: 2px #f08080 solid;
-  border-radius: 4px;
+  border-radius: 15px;
 }
 body .LAX-LHR .londonCalling {
   flex-direction: column;
@@ -235,6 +322,8 @@ body .LAX-LHR .londonCalling {
 body .LAX-LHR .londonCalling img {
   margin: 4% 3%;
   width: 80%;
+  border: 2px #f08080 solid;
+  border-radius: 15px;
 }
 body .airportAirline-container {
   width: 80%;
@@ -242,10 +331,12 @@ body .airportAirline-container {
   flex-direction: column;
   color: #f5deb3;
   background-color: #008080;
+  border-radius: 15px;
   border: 5px solid #f5deb3;
+  padding: 3% 5%;
 }
 body .airportAirline-container h4 {
-  padding: 3% 5%;
+  padding: 3% 4.8%;
 }
 body p {
   text-align: center;
@@ -255,10 +346,15 @@ body .book-flights {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 2px #f08080 solid;
+  border-radius: 15px;
+  padding: 5%;
+  width: 70%;
 }
 body .book-flights .forms {
   width: 80%;
   display: flex;
+  justify-content: center;
 }
 body .book-flights .forms label {
   width: 100%;
