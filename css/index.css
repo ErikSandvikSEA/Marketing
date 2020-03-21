@@ -126,3 +126,62 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  background-color: #e6e6fa;
+}
+html body {
+  color: #2f4f4f;
+  font-family: 'Baloo Da 2', cursive;
+}
+html body h1,
+html body h2,
+html body h3,
+html body h4,
+html body h5,
+html body h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+html body h1 {
+  font-size: 4.5rem;
+}
+html body h2 {
+  font-size: 3.2rem;
+}
+html body h3 {
+  font-size: 2.8rem;
+}
+html body h4 {
+  font-size: 2.5rem;
+}
+html body p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.btn {
+  background-color: #008080;
+  width: 50%;
+  color: #f5deb3;
+  padding-left: 8%;
+  padding-right: 8%;
+  border-radius: 12px;
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 1.8rem;
+}
+@font-face {
+  font-family: 'Baloo Da 2';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Baloo Da 2 Regular'), local('BalooDa2-Regular'), url(https://fonts.gstatic.com/s/balooda2/v1/2-ci9J9j0IaUMQZwAJyJQundpQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKfw7z.ttf) format('truetype');
+}
