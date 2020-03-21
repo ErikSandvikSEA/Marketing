@@ -346,19 +346,29 @@ body .book-flights {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   border: 2px #f08080 solid;
   border-radius: 15px;
   padding: 5%;
   width: 70%;
 }
+body .book-flights h4 {
+  margin: 4%;
+}
 body .book-flights .forms {
+  color: #f08080;
+  font-size: 1.5rem;
   width: 80%;
   display: flex;
   justify-content: center;
 }
 body .book-flights .forms label {
-  width: 100%;
+  margin: 1%;
+  width: 10%;
   justify-content: center;
+}
+body .book-flights .btn {
+  margin: 4%;
 }
 body footer p {
   background-color: #e6e6fa;
