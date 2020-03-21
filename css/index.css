@@ -171,6 +171,54 @@ html body p {
   font-family: 'Baloo Da 2', cursive;
   font-size: 1.8rem;
 }
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.intro img {
+  padding: 2% 0;
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.intro .intro-text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1% 0;
+}
+.intro .intro-text p {
+  padding: 1% 0;
+}
+.food {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.food .food-top {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.food .reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
 @font-face {
   font-family: 'Baloo Da 2';
   font-style: normal;
