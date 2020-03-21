@@ -89,6 +89,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  border: 1px solid red;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -132,6 +133,8 @@ table {
 html {
   font-size: 62.5%;
   background-color: #e6e6fa;
+  border: 20px solid #f08080;
+  border-radius: 15px;
 }
 html body {
   color: #2f4f4f;
@@ -170,6 +173,99 @@ html body p {
   border-radius: 12px;
   font-family: 'Baloo Da 2', cursive;
   font-size: 1.8rem;
+}
+body {
+  margin: 0 8%;
+}
+body .nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+body .nav-container nav {
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body .nav-container a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+body .home .intro {
+  border: 5px #f08080 solid;
+  padding: 4% 0;
+}
+body .home .plane-images {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 4% 3%;
+}
+body .home .plane-images img {
+  width: 30%;
+  border: 2px #f08080 solid;
+  border-radius: 4px;
+}
+body .home .SEA-BNA,
+body .home .LAX-LHR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4% 0;
+}
+body .nashvilleWall {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .nashvilleWall img {
+  width: 80%;
+  margin: 4% 3%;
+  border: 2px #f08080 solid;
+  border-radius: 4px;
+}
+body .LAX-LHR .londonCalling {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 4%;
+}
+body .LAX-LHR .londonCalling img {
+  margin: 4% 3%;
+  width: 80%;
+}
+body .airportAirline-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  color: #f5deb3;
+  background-color: #008080;
+  border: 5px solid #f5deb3;
+}
+body .airportAirline-container h4 {
+  padding: 3% 5%;
+}
+body p {
+  text-align: center;
+  padding: 1%;
+}
+body .book-flights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .book-flights .forms {
+  width: 80%;
+  display: flex;
+}
+body .book-flights .forms label {
+  width: 100%;
+  justify-content: center;
+}
+body footer p {
+  background-color: #e6e6fa;
 }
 @font-face {
   font-family: 'Baloo Da 2';
