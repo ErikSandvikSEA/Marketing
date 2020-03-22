@@ -132,12 +132,14 @@ table {
 html {
   font-size: 62.5%;
   background-color: #e6e6fa;
-  border: 20px solid #f08080;
   border-radius: 15px;
 }
 html body {
   color: #2f4f4f;
   font-family: 'Baloo Da 2', cursive;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 html body h1,
 html body h2,
@@ -202,7 +204,7 @@ body .hotel-images-es img {
 }
 body .btn-es {
   background-color: #008080;
-  width: 49%;
+  width: 100%;
   color: #f5deb3;
   padding-left: 8%;
   padding-right: 8%;
@@ -257,7 +259,7 @@ body .title-slogan-es {
 header {
   background-color: #008080;
 }
-header nav {
+header .nav-jh {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -265,28 +267,28 @@ header nav {
   margin: 0 auto;
   padding: 1% 0;
 }
-header nav h1 {
+header .nav-jh h1 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-header nav h1 a {
+header .nav-jh h1 a {
   text-decoration: none;
   color: #e6e6fa;
 }
-header nav .links {
+header .nav-jh .links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 50%;
 }
-header nav .links a {
+header .nav-jh .links a {
   text-decoration: none;
   color: #e6e6fa;
   font-size: 2.4rem;
 }
 @media (max-width: 500px) {
-  header nav {
+  header .nav-jh {
     display: none;
   }
 }
@@ -573,7 +575,7 @@ nav .links a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 100%;
 }
 .popular .spots img {
   width: 300px;
