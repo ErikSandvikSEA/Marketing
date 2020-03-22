@@ -3,106 +3,145 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
 
-    <title>VACA Get Away</title>
+<head>
+  <meta charset="utf-8" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu"
-      rel="stylesheet"
-    />
-    <link href="css/index.css" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--[if lt IE 9]>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>VACA Get Away</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet" />
+  <link href="css/index.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <!-- nav bar here  -->
-    <header class="nav-header">
-      <h1>WELCOME TO VAQA</h1>
-      <!--Vaca/Vaca getaway?-->
+</head>
+
+<body>
+  <header>
+    <div class="nav-header">
+      <div class="vaca">
+        <h1>WELCOME TO VAQA</h1>
+      </div>
+
       <nav>
+        <a href="#">Home</a>
         <a href="#">Flight</a>
         <a href="#">Lodging</a>
         <a href="#">Dining</a>
         <a href="#">Events</a>
-        <a href="#">Profile</a>
+        <a href="profile-page.html">Profile</a>
         <a href="#">Contacts</a>
       </nav>
-    </header>
-    <!--/\/\//\/\/\/\/\/\/\\/\/\ Mission Statement\/\/\/\/\/\/\/\/\/\/\//\\-->
-    <div class="container home">
-      <header class="beginning">
-        <!--image code here-->
-        <img src="imgs/cottages-in-the-middle-of-beach-753626.jpg" alt="" />
-      </header>
-      <section class="mst">
-        <div class="statement">
-          <h2>Mission Statement</h2>
-          <p>
-            Helping people and companies travel smart and achieve more. Plan
-            your travels in a safe a secure fashion, thorough monitoring
-            activity through push notification and email. Client customer
-            relations is what drives the atmoshpere as well as peer to peer
-            connection.
-          </p>
+    </div>
+  </header>
 
-          <div class="see">
-            <h2>Vision</h2>
-            <p>
-              To give understanding throughout best value services and
-              innovative travel management company.
-			</p>
-			 <!--Mission statement img here-->
-			 <img src="imgs/men-working-at-night-256219.jpg" alt="" />
-          </div>
-        </div>
-      </section>
+  <!-- beginning home page -->
+  <header class="beginning">
+    <!--image code here-->
+    <img src="imgs/cottages-in-the-middle-of-beach-753626.jpg" alt="Vaction picture" />
+
+    <h2>Mission Statement</h2>
+    <!--Mission statement here-->
+    <p>
+      Helping people and companies travel smart and achieve more.
+
+      Plan your travels in a safe a secure fashion, thorough monitoring activity
+      through push notification and email.
+
+      Client customer relations is whatdrives the atmoshpere as well as
+      peer to peer connection.
+    </p>
+
+  </header>
+
+  <section class="vist-places">
+    <div class="mst">
+      <div>
+        <!-- Images on site-->
+        <img src="imgs/people-in-concert-1763075.jpg" alt="" />
+      </div>
+      <div class="img2">
+        <img src="imgs/aerial-view-of-city-lit-up-at-night-325193.jpg" alt="" />
+      </div>
     </div>
 
-    <!-- <section class="Calander"> 
-      <div class="Plan">
-        <h3>Choose You dates</h3>
+    <div class="travel">
+      <h3>Best Travels</h3>
+      <p>
+        Giving you the best travel experience ever. From planning from any where to traveling anywhere you desire.
+        <br>
+        Getting started by signing up, to starting your flight booking, AirBnb, setting up your Uber/Lift to get you
+        around family functions, social and night life, resturants etc.
+        <br>
+        Sign up and experience the quickest way to make
+        sure that you are stress free when planning your trips today.
+      </p>
+    </div>
 
-        <img src="" alt="" />
-      </div>
-    </section> -->
+    <div class="img3">
+    <img src="imgs/photo-of-woman-doing-hand-sign-2531236.jpg" alt="" />
+  </div>
+  </section>
 
-    <section class="forminfo">
-      <div>
-        <form class="signup">
-          <h4>Sign Up</h4>
-          <li><input type="lastname" name="" value="Last" />Last Name</li>
-          <li><input type="firstname" name="" value="First" />First Name</li>
-          <li><input type="email" name="email" value="@email.com" />Email</li>
-          <li><input type="password" name="password" value="" />Password</li>
-          <li><input type="password" name="password" value="" />Re-type</li>
-          <input type="submit" name="" value="Submit" />
-        </form>
-        <br />
-        <br />
-        <form class="login">
-          <!--Form to login -->
-          <h4>Log in</h4>
-          <input type="email" name="useremail" value="@email.com" />
-          <input type="password" name="password" value="password" />
-          <input type="submit" name="" value="Login" />
-        </form>
-      </div>
-    </section>
+  <!-- middle of home page -->
+  <section class="forminfo">
+    <div class="forms">
+      <form class="signup">
+        <h4>Sign Up</h4>
+        <ul>
+        <li><input type="lastname" name="" value="Last" />Last Name</li>
+        <li><input type="firstname" name="" value="First" />First Name</li>
+        <li><input type="email" name="email" value="@email.com" />Email</li>
+        <li><input type="password" name="password" value="" />Password</li>
+        <li><input type="password" name="password" value="" />Re-type</li>
+      </ul>
+      </form>
+        <div class="age">
 
-    <footer>
+          <p>Are you over the age of 18?</p>
+          <label for="Yes">Yes, I am over 18</label>
+          <input id="over" type="radio" name="duh" value="over18">
+          <label for="No">No, I an under 18</label>
+          <input id="under" type="radio" name="duh" value="under18">
+          <p>Do you have a Credit Card or Paypal?</p>
+
+          <select name="Payment type">
+            <option value="CC">Credit Card</option>
+            <option value="PP">PayPal</option>
+          </select>
+          <input type="submit" name="" value="Submit">
+        </div>
+      
+
+      <br />
+      <form class="login">
+        <!--Form to login -->
+        <h4>Log in</h4>
+        <input type="email" name="useremail" value="@email.com" />
+        <input type="password" name="password" value="password" />
+        <a href="profiles-pages.html"><input type="submit" name="" value="Login"/></a>
+      </form>
+    </div>
+  </section>
+  <!--Footer Nav page  -->
+  <footer>
+    <section class="foot-nav">
       <!-- footer nav here  -->
       <nav>
+        <a href="#">Home</a>
         <a href="#">Flight</a>
         <a href="#">Lodging</a>
         <a href="#">Dining</a>
         <a href="#">Events</a>
-        <a href="#">Profile</a>
+        <a href="profile-page.html">Profile</a>
         <a href="#">Contacts</a>
       </nav>
-    </footer>
-  </body>
+    </section>
+  </footer>
+</body>
+
 </html>

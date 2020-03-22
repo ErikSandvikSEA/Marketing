@@ -2,6 +2,7 @@
     "telemetry.machineId": "d35e60972f936969a4ac0ca7610b3e12a28c537fcd8114a8273a811044e1597b",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/owlspec3086/Lambda_assignments/Preprocessing-II",
             "file:///home/owlspec3086/Lambda_assignments/Sprint-Challenge--Advanced-CSS",
             "file:///home/owlspec3086/Lambda_assignments/Marketing"
         ],
@@ -41,7 +42,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -50,13 +52,13 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/owlspec3086/Lambda_assignments/Marketing",
-                                        "external": "file:///home/owlspec3086/Lambda_assignments/Marketing",
-                                        "path": "/home/owlspec3086/Lambda_assignments/Marketing",
+                                        "fsPath": "/home/owlspec3086/Lambda_assignments/Preprocessing-II",
+                                        "external": "file:///home/owlspec3086/Lambda_assignments/Preprocessing-II",
+                                        "path": "/home/owlspec3086/Lambda_assignments/Preprocessing-II",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/home/owlspec3086/Lambda_assignments/Marketing"
+                                    "label": "/home/owlspec3086/Lambda_assignments/Preprocessing-II"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -68,6 +70,17 @@
                                     },
                                     "enabled": true,
                                     "label": "/home/owlspec3086/Lambda_assignments/Sprint-Challenge--Advanced-CSS"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/owlspec3086/Lambda_assignments/Marketing",
+                                        "path": "/home/owlspec3086/Lambda_assignments/Marketing",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/owlspec3086/Lambda_assignments/Marketing"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -402,8 +415,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -578,7 +590,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -587,7 +600,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -656,45 +670,54 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3"
+                                    "label": "Group &&3",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4"
+                                    "label": "Group &&4",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5"
+                                    "label": "Group &&5",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group"
+                                    "label": "&&Next Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group"
+                                    "label": "&&Previous Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left"
+                                    "label": "Group &&Left",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right"
+                                    "label": "Group &&Right",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above"
+                                    "label": "Group &&Above",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below"
+                                    "label": "Group &&Below",
+                                    "enabled": false
                                 }
                             ]
                         }
@@ -889,7 +912,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1452,39 +1476,16 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/owlspec3086/Lambda_assignments/Marketing",
-            "backupPath": "/home/owlspec3086/Lambda_assignments/Marketing/~/.vscode-root/Backups/0fb7d5b8fb86f07b23e9551022d0042e",
+            "folder": "file:///home/owlspec3086/Lambda_assignments/Preprocessing-II",
+            "backupPath": "/home/owlspec3086/Lambda_assignments/Marketing/~/.vscode-root/Backups/d93f76bf501a969c7ac99d662c0b4cd4",
             "uiState": {
-                "mode": 0,
-                "x": 2228,
-                "y": 68,
+                "mode": 1,
+                "x": 1826,
+                "y": 339,
                 "width": 1024,
-                "height": 1009
+                "height": 731
             }
         },
-        "openedWindows": [
-            {
-                "folder": "file:///home/owlspec3086/Lambda_assignments/Marketing",
-                "backupPath": "/home/owlspec3086/Lambda_assignments/Marketing/~/.vscode-root/Backups/0fb7d5b8fb86f07b23e9551022d0042e",
-                "uiState": {
-                    "mode": 0,
-                    "x": 2228,
-                    "y": 68,
-                    "width": 1024,
-                    "height": 1009
-                }
-            },
-            {
-                "folder": "file:///home/owlspec3086/Lambda_assignments/Sprint-Challenge--Advanced-CSS",
-                "backupPath": "/home/owlspec3086/Lambda_assignments/Marketing/~/.vscode-root/Backups/3962122c7ec1bb8a1ce6611e5d86d839",
-                "uiState": {
-                    "mode": 1,
-                    "x": 1844,
-                    "y": 223,
-                    "width": 1024,
-                    "height": 768
-                }
-            }
-        ]
+        "openedWindows": []
     }
 }
