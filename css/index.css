@@ -218,6 +218,7 @@ nav .links a {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  border-radius: 10px;
 }
 .intro .intro-text {
   width: 100%;
@@ -265,6 +266,9 @@ nav .links a {
   border-radius: 10px;
   border: 4px solid #f08080;
 }
+.food .map:hover {
+  cursor: pointer;
+}
 .food .food-content {
   display: flex;
   flex-direction: column;
@@ -292,7 +296,7 @@ nav .links a {
 }
 .food .reviews button {
   padding: 2%;
-  margin: 2% 0 3%;
+  margin: 4% 0 3%;
   width: 32%;
   border-radius: 10px;
   border: 3px solid #f08080;
@@ -319,6 +323,9 @@ nav .links a {
   object-fit: cover;
   border-radius: 10px;
   border: 4px solid #f08080;
+}
+.food .food-preview img:hover {
+  cursor: pointer;
 }
 header {
   background-color: #008080;
@@ -350,6 +357,142 @@ nav .links a {
   text-decoration: none;
   color: #e6e6fa;
   font-size: 2.4rem;
+}
+nav .links a:hover {
+  color: #f08080;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.intro .city {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.intro .city {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.intro .intro-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8% 0;
+  margin: 2% auto 0;
+}
+.intro .intro-text .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 50%;
+}
+.intro .intro-text .title h2 {
+  font-size: 6rem;
+}
+.intro .intro-text .title h3 {
+  font-size: 8rem;
+  color: #f08080;
+}
+.intro .intro-text p {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2% 0 2% 5%;
+  width: 50%;
+  font-size: 2rem;
+  margin: 0 10% 0;
+}
+.popular {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  border: 4px solid #f08080;
+  border-radius: 10px;
+  padding: 3%;
+}
+.popular h2 {
+  padding-bottom: 4%;
+}
+.popular .spots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.popular .spots img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 4px solid #f08080;
+}
+.popular .spots img:hover {
+  cursor: pointer;
+}
+.popular .spots h3 {
+  padding-top: 4%;
+  text-align: center;
+}
+.popular .spots h3:hover {
+  cursor: pointer;
+}
+.local {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 5% auto;
+  border: 4px solid #f08080;
+  border-radius: 10px;
+  padding: 3%;
+}
+.local h2 {
+  padding-bottom: 4%;
+}
+.local .spots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.local .spots img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.local .spots img:hover {
+  cursor: pointer;
+}
+.local .spots h3 {
+  padding-top: 4%;
+  text-align: center;
+}
+.local .spots h3:hover {
+  cursor: pointer;
 }
 @font-face {
   font-family: 'Baloo Da 2';
