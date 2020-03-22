@@ -500,6 +500,7 @@ nav .links a:hover {
   width: 200px;
   height: 200px;
   object-fit: cover;
+  filter: invert(25%) sepia(52%) saturate(276%) hue-rotate(131deg) brightness(98%) contrast(94%);
 }
 .local .spots img:hover {
   cursor: pointer;
