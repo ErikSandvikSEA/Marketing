@@ -1,3 +1,85 @@
-.btn {
-	.custom-btn(@button-background-color, 50%, @button-font-color);
+body {
+	margin: 8%;
+	padding: 4%;
+	.nav-container-es {
+		display: flex;
+		justify-content: space-between;
+		padding: 4%;
+		nav {
+			width: 65%;
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+		}
+		a {
+			text-decoration: none;
+			font-size: 2rem;
+			font-weight: bold;
+		}
+	}
+	.hotels-text-content-es {
+		border: #f08080 solid 2px;
+		border-radius: 15px;
+		padding: 5%;
+		margin: 4%;
+	}
+	.hotel-images-es {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		padding: 4% 3%;
+
+		img {
+			width: 30%;
+			border: 2px @main-background-color solid;
+			border-radius: 4px;
+		}
+	}
+	.btn-es {
+		.custom-btn-es(@button-background-color, 49%, @button-font-color);
+	}
+	.img-content-es {
+		display: flex;
+		justify-content: center;
+		img {
+			border: 3px @main-background-color solid;
+			border-radius: 4px;
+		}
+	}
+	.content-pick-es {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.destination-es {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 3%;
+		padding: 1% 0;
+		border: #f08080 solid 2px;
+		border-radius: 15px;
+		width: 70%;
+	}
+	.button-container-es {
+		display: flex;
+		justify-content: center;
+		width: 30%;
+	}
+	.book-another-es {
+		border: #f08080 solid 2px;
+		border-radius: 15px;
+		padding: 5%;
+		margin: 4%;
+		img {
+			border: #f08080 solid 2px;
+			border-radius: 15px;
+			width: 45%;
+		}
+	}
+	.title-slogan-es {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
 }

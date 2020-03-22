@@ -132,6 +132,8 @@ table {
 html {
   font-size: 62.5%;
   background-color: #e6e6fa;
+  border: 20px solid #f08080;
+  border-radius: 15px;
 }
 html body {
   color: #2f4f4f;
@@ -161,15 +163,96 @@ html body p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
-.btn {
+body {
+  margin: 8%;
+  padding: 4%;
+}
+body .nav-container-es {
+  display: flex;
+  justify-content: space-between;
+  padding: 4%;
+}
+body .nav-container-es nav {
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body .nav-container-es a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+body .hotels-text-content-es {
+  border: #f08080 solid 2px;
+  border-radius: 15px;
+  padding: 5%;
+  margin: 4%;
+}
+body .hotel-images-es {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 4% 3%;
+}
+body .hotel-images-es img {
+  width: 30%;
+  border: 2px #f08080 solid;
+  border-radius: 4px;
+}
+body .btn-es {
   background-color: #008080;
-  width: 50%;
+  width: 49%;
   color: #f5deb3;
   padding-left: 8%;
   padding-right: 8%;
   border-radius: 12px;
   font-family: 'Baloo Da 2', cursive;
   font-size: 1.8rem;
+}
+body .img-content-es {
+  display: flex;
+  justify-content: center;
+}
+body .img-content-es img {
+  border: 3px #f08080 solid;
+  border-radius: 4px;
+}
+body .content-pick-es {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .destination-es {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3%;
+  padding: 1% 0;
+  border: #f08080 solid 2px;
+  border-radius: 15px;
+  width: 70%;
+}
+body .button-container-es {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+body .book-another-es {
+  border: #f08080 solid 2px;
+  border-radius: 15px;
+  padding: 5%;
+  margin: 4%;
+}
+body .book-another-es img {
+  border: #f08080 solid 2px;
+  border-radius: 15px;
+  width: 45%;
+}
+body .title-slogan-es {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 header {
   background-color: #008080;
@@ -605,6 +688,125 @@ nav .links a:hover {
     justify-content: center;
     align-items: center;
   }
+}
+body {
+  margin: 0 8%;
+  border-radius: 15px;
+}
+body .nav-container-es {
+  display: flex;
+  justify-content: space-between;
+}
+body .nav-container-es nav {
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body .nav-container-es a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+body .home-es {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .home-es .intro {
+  border: 5px #f08080 solid;
+  border-radius: 15px;
+  padding: 4%;
+}
+body .home-es .plane-images-es {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 4% 3%;
+}
+body .home-es .plane-images-es img {
+  width: 30%;
+  border: 2px #f08080 solid;
+  border-radius: 4px;
+}
+body .home-es .SEA-BNA-es,
+body .home-es .LAX-LHR-es {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4% 0;
+}
+body .nashvilleWall-es {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .nashvilleWall-es img {
+  width: 80%;
+  margin: 4% 3%;
+  border: 2px #f08080 solid;
+  border-radius: 15px;
+}
+body .LAX-LHR-es .londonCalling-es {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 4%;
+}
+body .LAX-LHR-es .londonCalling-es img {
+  margin: 4% 3%;
+  width: 80%;
+  border: 2px #f08080 solid;
+  border-radius: 15px;
+}
+body .airportAirline-container-es {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  color: #f5deb3;
+  background-color: #008080;
+  border-radius: 15px;
+  border: 5px solid #f5deb3;
+  padding: 3% 5%;
+}
+body .airportAirline-container-es h4 {
+  padding: 3% 4.8%;
+}
+body p {
+  text-align: center;
+  padding: 1%;
+}
+body .book-flights-es {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px #f08080 solid;
+  border-radius: 15px;
+  padding: 5%;
+  width: 70%;
+}
+body .book-flights-es h4 {
+  margin: 4%;
+}
+body .book-flights-es .forms-es {
+  color: #f08080;
+  font-size: 1.5rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+body .book-flights-es .forms-es label {
+  margin: 1%;
+  width: 10%;
+  justify-content: center;
+}
+body .book-flights-es .btn-es {
+  margin: 4%;
+}
+body footer p {
+  background-color: #e6e6fa;
 }
 @font-face {
   font-family: 'Baloo Da 2';
