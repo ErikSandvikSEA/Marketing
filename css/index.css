@@ -174,7 +174,7 @@ html body p {
 header {
   background-color: #008080;
 }
-nav {
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -182,25 +182,30 @@ nav {
   margin: 0 auto;
   padding: 1% 0;
 }
-nav h1 {
+header nav h1 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-nav h1 a {
+header nav h1 a {
   text-decoration: none;
   color: #e6e6fa;
 }
-nav .links {
+header nav .links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 50%;
 }
-nav .links a {
+header nav .links a {
   text-decoration: none;
   color: #e6e6fa;
   font-size: 2.4rem;
+}
+@media (max-width: 500px) {
+  header nav {
+    display: none;
+  }
 }
 .intro {
   display: flex;
@@ -241,6 +246,13 @@ nav .links a {
   font-size: 8rem;
   color: #f08080;
 }
+@media (max-width: 500px) {
+  .intro .intro-text .title {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
 .intro .intro-text p {
   display: flex;
   justify-content: center;
@@ -249,6 +261,11 @@ nav .links a {
   width: 50%;
   font-size: 2rem;
   margin: 0 10% 0;
+}
+@media (max-width: 500px) {
+  .intro .intro-text p {
+    width: 100%;
+  }
 }
 .food {
   display: flex;
@@ -267,6 +284,11 @@ nav .links a {
 }
 .food .map:hover {
   cursor: pointer;
+}
+@media (max-width: 500px) {
+  .food .map {
+    width: 80%;
+  }
 }
 .food .food-content {
   display: flex;
@@ -309,6 +331,23 @@ nav .links a {
   border: 3px solid #008080;
   cursor: pointer;
 }
+@media (max-width: 500px) {
+  .food .reviews button {
+    width: 130%;
+  }
+}
+@media (max-width: 500px) {
+  .food .reviews {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+  .food .reviews h2 {
+    text-align: center;
+    padding: 5% 0;
+  }
+}
 .food .food-preview {
   width: 90%;
   margin-left: 10%;
@@ -325,6 +364,19 @@ nav .links a {
 }
 .food .food-preview img:hover {
   cursor: pointer;
+}
+@media (max-width: 500px) {
+  .food .food-preview {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .food {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 header {
   background-color: #008080;
@@ -399,6 +451,13 @@ nav .links a:hover {
   font-size: 8rem;
   color: #f08080;
 }
+@media (max-width: 500px) {
+  .intro .intro-text .title {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
 .intro .intro-text p {
   display: flex;
   justify-content: center;
@@ -407,6 +466,11 @@ nav .links a:hover {
   width: 50%;
   font-size: 2rem;
   margin: 0 10% 0;
+}
+@media (max-width: 500px) {
+  .intro .intro-text p {
+    width: 100%;
+  }
 }
 .popular {
   display: flex;
@@ -476,6 +540,13 @@ nav .links a:hover {
   border: 3px solid #008080;
   cursor: pointer;
 }
+@media (max-width: 500px) {
+  .popular .spots {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .local {
   display: flex;
   flex-direction: column;
@@ -527,6 +598,13 @@ nav .links a:hover {
   color: #e6e6fa;
   border: 3px solid #008080;
   cursor: pointer;
+}
+@media (max-width: 500px) {
+  .local .spots {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @font-face {
   font-family: 'Baloo Da 2';

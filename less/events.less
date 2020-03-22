@@ -79,6 +79,12 @@ nav {
                 font-size: 8rem;
                 color: @main-background-color;
             }
+
+            @media @phone {
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
         }
 
         p {
@@ -89,6 +95,10 @@ nav {
             width: 50%;
             font-size: 2rem;
             margin: 0 10% 0;
+
+            @media @phone {
+                width: 100%;
+            }
         }
     }
 }
@@ -170,6 +180,12 @@ nav {
             border: 3px solid @dark-background-color;
             cursor: pointer;
         }
+
+        @media @phone {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }
 
@@ -230,6 +246,12 @@ nav {
             color: @secondary-background-color;
             border: 3px solid @dark-background-color;
             cursor: pointer;
+        }
+
+        @media @phone {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
     }
 }
