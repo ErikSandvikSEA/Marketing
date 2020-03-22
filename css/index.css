@@ -207,7 +207,7 @@ nav .links a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
 }
 .intro img {
@@ -218,10 +218,9 @@ nav .links a {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  border-radius: 10px;
 }
 .intro .intro-text {
-  width: 100%;
+  width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -363,22 +362,10 @@ nav .links a:hover {
 }
 .intro {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  margin: 0 auto;
-}
-.intro .city {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-.intro {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
 }
 .intro .city {
@@ -389,10 +376,9 @@ nav .links a:hover {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  border-radius: 4px;
 }
 .intro .intro-text {
-  width: 100%;
+  width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -459,6 +445,37 @@ nav .links a:hover {
 .popular .spots h3:hover {
   cursor: pointer;
 }
+.popular .spots .spot1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular .spots .spot2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular .spots .spot3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular .spots button {
+  padding: 2%;
+  margin: 10% 0 1%;
+  width: 200px;
+  border-radius: 10px;
+  border: 3px solid #f08080;
+  background: #f08080;
+  color: #e6e6fa;
+  font-size: 1.8rem;
+}
+.popular .spots button:hover {
+  background: #008080;
+  color: #e6e6fa;
+  border: 3px solid #008080;
+  cursor: pointer;
+}
 .local {
   display: flex;
   flex-direction: column;
@@ -492,6 +509,22 @@ nav .links a:hover {
   text-align: center;
 }
 .local .spots h3:hover {
+  cursor: pointer;
+}
+.local .spots button {
+  padding: 2%;
+  margin: 10% 0 1%;
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid #f08080;
+  background: #f08080;
+  color: #e6e6fa;
+  font-size: 1.8rem;
+}
+.local .spots button:hover {
+  background: #008080;
+  color: #e6e6fa;
+  border: 3px solid #008080;
   cursor: pointer;
 }
 @font-face {
