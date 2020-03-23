@@ -5,10 +5,16 @@
 html {
 	font-size: 62.5%;
 	background-color: @secondary-background-color;
+
+	overflow-x:hidden;
+
 	//border: 20px solid @main-background-color;
 	border-radius: 15px;
 
+
 	body {
+		overflow-x: hidden;
+		max-width: 100%;
 		color: @main-color;
 		font-family: @main-font;
 		h1,
@@ -41,4 +47,7 @@ html {
 		padding: 0;
 		border: none;
 	}
+}
+.main{
+	width: 80%;
 }
