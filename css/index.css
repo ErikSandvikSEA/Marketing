@@ -165,25 +165,153 @@ html body p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
+header .nav-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 4% 8%;
+  font-size: 1.6rem;
+}
+header .nav-header .vaca h1 {
+  margin-bottom: 5%;
+}
+header .nav-header nav {
+  width: 80%;
+  margin-left: 25%;
+}
+header .nav-header a {
+  width: 40%;
+  margin: auto 2%;
+  color: #f08080;
+}
+footer {
+  background-color: black;
+}
+footer .foot-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+footer .foot-nav nav {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 50%;
+}
+footer .foot-nav a {
+  width: 60%;
+  margin: auto 2%;
+}
+.beginning img {
+  width: 100%;
+  height: 40%;
+}
+.beginning h2 {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 2%;
+}
+.beginning p {
+  text-align: center;
+  font-size: 2rem;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 6%;
+  margin-top: 2%;
+}
+.visit-places {
+  width: 100%;
+}
+h3 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+p {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.mst {
+  display: flex;
+  justify-content: space-evenly;
+}
+.mst div {
+  width: 100%;
+}
+.mst img {
+  width: 40%;
+  height: 90%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.img3 {
+  display: flex;
+  justify-content: center;
+}
+.img3 div {
+  width: 100%;
+}
+.img3 img {
+  width: 50%;
+  height: 70vh;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  font-size: 1.5rem;
+}
+.login {
+  margin-bottom: 2%;
+}
+.age {
+  font-size: 1rem;
+}
+.age label {
+  font-size: 2rem;
+}
+body {
+  margin: 0 auto;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.profile .pro {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+.profile .pro p {
+  width: 100%;
+  margin-top: 2%;
+}
+.profile .pro img {
+  height: 100px;
+}
+.profile .pro h4 {
+  font-size: 2rem;
+}
+.service h3 {
+  text-align: left;
+}
 body {
   margin: 8%;
   padding: 4%;
-}
-body .nav-container-es {
-  display: flex;
-  justify-content: space-between;
-  padding: 4%;
-}
-body .nav-container-es nav {
-  width: 65%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-body .nav-container-es a {
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: bold;
 }
 body .hotels-text-content-es {
   border: #f08080 solid 2px;
@@ -255,42 +383,6 @@ body .title-slogan-es {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-header {
-  background-color: #008080;
-}
-header .nav-jh {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 70%;
-  margin: 0 auto;
-  padding: 1% 0;
-}
-header .nav-jh h1 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-header .nav-jh h1 a {
-  text-decoration: none;
-  color: #e6e6fa;
-}
-header .nav-jh .links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 50%;
-}
-header .nav-jh .links a {
-  text-decoration: none;
-  color: #e6e6fa;
-  font-size: 2.4rem;
-}
-@media (max-width: 500px) {
-  header .nav-jh {
-    display: none;
-  }
 }
 .intro {
   display: flex;
@@ -462,40 +554,6 @@ header .nav-jh .links a {
     justify-content: center;
     align-items: center;
   }
-}
-header {
-  background-color: #008080;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 70%;
-  margin: 0 auto;
-  padding: 1% 0;
-}
-nav h1 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-nav h1 a {
-  text-decoration: none;
-  color: #e6e6fa;
-}
-nav .links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 50%;
-}
-nav .links a {
-  text-decoration: none;
-  color: #e6e6fa;
-  font-size: 2.4rem;
-}
-nav .links a:hover {
-  color: #f08080;
 }
 .intro {
   display: flex;
@@ -694,21 +752,6 @@ nav .links a:hover {
 body {
   margin: 0 8%;
   border-radius: 15px;
-}
-body .nav-container-es {
-  display: flex;
-  justify-content: space-between;
-}
-body .nav-container-es nav {
-  width: 65%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-body .nav-container-es a {
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: bold;
 }
 body .home-es {
   display: flex;
